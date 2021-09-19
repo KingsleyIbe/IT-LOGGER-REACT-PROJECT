@@ -1,0 +1,59 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Change hard drive 001",
+      "attention": false,
+      "date": "19-09-2021",
+      "techs": "Sam Samson"
+    },
+    {
+      "id": 2,
+      "message": "Change hard drive 002",
+      "attention": true,
+      "date": "19-09-2021",
+      "techs": "Emmy Emeka"
+    },
+    {
+      "id": 3,
+      "message": "Change hard drive 003",
+      "attention": false,
+      "date": "19-09-2021",
+      "techs": "Pat Patrick"
+    },
+    {
+      "id": 4,
+      "message": "Change hard drive 004",
+      "attention": true,
+      "date": "19-09-2021",
+      "techs": "Ng Ngozi"
+    }
+  ],
+  "techs": [
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Samson"
+    },
+    {
+      "id": 2,
+      "firstName": "Emmy",
+      "lastName": "Emeka"
+    },
+    {
+      "id": 3,
+      "firstName": "Pat",
+      "lastName": "Patrick"
+    },
+    {
+      "id": 4,
+      "firstName": "Ng",
+      "lastName": "Ngozi"
+    },
+    {
+      "firstName": "Madu",
+      "lastName": "Kingsley",
+      "id": 2
+    }
+  ]
+}
