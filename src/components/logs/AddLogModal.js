@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import TechSelectOption from "../tech/TechSelectOption";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { addLog } from "../../actions/logActions";
 import M from "materialize-css/dist/js/materialize.min.js";
 
-const AddLogModal = ({addLog}) => {
+const AddLogModal = ({ addLog }) => {
   const onSubmit = () => {
     if (message === "" || tech === "") {
       M.toast({ html: "Please enter all fields!" });
@@ -55,9 +56,7 @@ const AddLogModal = ({addLog}) => {
               <option value="" disabled>
                 Select Technical
               </option>
-              <option value="John Smith">John Smith</option>
-              <option value="Emmanuel Gbenga">Emmanuel Gbenga</option>
-              <option value="Sarah Wilson">Sarah Wilson</option>
+              <TechSelectOption />
             </select>
           </div>
         </div>

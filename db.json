@@ -3,50 +3,40 @@
     {
       "message": "Fixed buzzing sound",
       "attention": true,
-      "tech": "Emmanuel Gbenga",
-      "date": "2021-09-21T09:55:55.812Z",
+      "tech": "Emeka  Chukwuebuka",
+      "date": "2021-09-21T20:39:31.263Z",
       "id": 1
     },
     {
-      "message": "test code",
-      "attention": true,
-      "tech": "Emmanuel Gbenga",
-      "date": "2021-09-21T09:56:31.980Z",
+      "message": "Completed react course 01",
+      "attention": false,
+      "tech": "Kingsley  Ibe",
+      "date": "2021-09-21T20:39:57.606Z",
       "id": 2
     },
     {
-      "message": "I am learning react-redux",
-      "attention": false,
-      "tech": "John Smith",
-      "date": "2021-09-21T09:57:10.884Z",
+      "message": "fix issue 999",
+      "attention": true,
+      "tech": "Paul  Ifeanyi",
+      "date": "2021-09-21T20:40:27.684Z",
       "id": 3
     }
   ],
   "techs": [
     {
-      "id": 2,
-      "firstName": "Sam",
-      "lastName": "Samson"
+      "firstName": "Kingsley ",
+      "lastName": "Ibe",
+      "id": 1
     },
     {
-      "id": 2,
-      "firstName": "Emmy",
-      "lastName": "Emeka"
-    },
-    {
-      "id": 3,
-      "firstName": "Pat",
-      "lastName": "Patrick"
-    },
-    {
-      "id": 4,
-      "firstName": "Ng",
-      "lastName": "Ngozi"
-    },
-    {
-      "firstName": "Madu",
-      "lastName": "Kingsley",
+      "firstName": "Emeka ",
+      "lastName": "Chukwuebuka",
       "id": 2
+    },
+    {
+      "firstName": "Paul ",
+      "lastName": "Ifeanyi",
+      "id": 3
     }
   ]
 }
