@@ -3,46 +3,40 @@
     {
       "message": "Fixed buzzing sound",
       "attention": true,
-      "tech": "Pat Patrick",
-      "date": "2021-09-21T17:30:19.103Z",
+      "tech": "Emeka  Chukwuebuka",
+      "date": "2021-09-21T20:39:31.263Z",
       "id": 1
+    },
+    {
+      "message": "Completed react course 01",
+      "attention": false,
+      "tech": "Kingsley  Ibe",
+      "date": "2021-09-21T20:39:57.606Z",
+      "id": 2
+    },
+    {
+      "message": "fix issue 999",
+      "attention": true,
+      "tech": "Paul  Ifeanyi",
+      "date": "2021-09-21T20:40:27.684Z",
+      "id": 3
     }
   ],
   "techs": [
     {
-      "id": 2,
-      "firstName": "Sam",
-      "lastName": "Samson"
+      "firstName": "Kingsley ",
+      "lastName": "Ibe",
+      "id": 1
     },
     {
-      "id": 2,
-      "firstName": "Emmy",
-      "lastName": "Emeka"
-    },
-    {
-      "id": 3,
-      "firstName": "Pat",
-      "lastName": "Patrick"
-    },
-    {
-      "id": 4,
-      "firstName": "Ng",
-      "lastName": "Ngozi"
-    },
-    {
-      "firstName": "Madu",
-      "lastName": "Kingsley",
+      "firstName": "Emeka ",
+      "lastName": "Chukwuebuka",
       "id": 2
     },
     {
-      "firstName": "Ibe",
-      "lastName": "Kingsley",
-      "id": 5
-    },
-    {
-      "firstName": "Kingsley",
-      "lastName": "Chukwuebuka",
-      "id": 6
+      "firstName": "Paul ",
+      "lastName": "Ifeanyi",
+      "id": 3
     }
   ]
 }
