@@ -1,6 +1,6 @@
 export const GET_LOGS = 'GET_LOGS'
 export const ADD_LOG = 'ADD_LOGS'
-export const DELETE_LOGS = 'DELETE_LOGS'
+export const DELETE_LOG = 'DELETE_LOGS'
 export const SET_CURRENT = 'SET_CURRENT'
 export const CLEAR_CURRENT = 'CLEAR_CURRENT'
 export const UPDATE_LOGS = 'UPDATE_LOGS'
