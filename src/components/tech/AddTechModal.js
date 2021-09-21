@@ -1,27 +1,31 @@
 import React, { useState } from "react";
-import M from 'materialize-css/dist/js/materialize.min.js';
+import { connect } from "react-redux";
+import PropTypes from "prop-types";
+import { addTech } from "../../actions/techActions";
+import M from "materialize-css/dist/js/materialize.min.js";
 
-
-const AddTechModal = () => {
- 
+const AddTechModal = ({ addTech }) => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
-  
 
   const onSubmit = () => {
-    if(firstName === '' || lastName === '') {
-        M.toast({html: 'Please enter all fields!'})
-    }else{
-        console.log({ firstName, lastName });
-        setFirstName("");
-        setLastName("");
+    if (firstName === "" || lastName === "") {
+      M.toast({ html: "Please enter all fields!" });
+    } else {
+      addTech({
+        firstName,
+        lastName,
+      });
+      M.toast({ html: `${firstName} ${lastName} was added as a Technician` });
+      setFirstName("");
+      setLastName("");
     }
-};
+  };
   return (
     <div id="add-tech-modal" className="modal">
       <div className="modal-content">
         <h4>New Technician</h4>
-        <br/>
+        <br />
         <div className="row">
           <div className="input-field">
             <input
@@ -31,11 +35,11 @@ const AddTechModal = () => {
               onChange={(e) => setFirstName(e.target.value)}
             />
             <label htmlFor="firstName" className="active">
-            First Name
+              First Name
             </label>
           </div>
         </div>
-        
+
         <div className="row">
           <div className="input-field">
             <input
@@ -45,11 +49,11 @@ const AddTechModal = () => {
               onChange={(e) => setLastName(e.target.value)}
             />
             <label htmlFor="lastName" className="active">
-            Last Name
+              Last Name
             </label>
           </div>
         </div>
-       
+
         <div className="modal-footer">
           <a
             href="#!"
@@ -64,4 +68,8 @@ const AddTechModal = () => {
     </div>
   );
 };
-export default AddTechModal;
+
+AddTechModal.propTypes = {
+  addTech: PropTypes.func.isRequired,
+};
+export default connect(null, { addTech })(AddTechModal);
