@@ -1,32 +1,25 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Change hard drive 001",
-      "attention": false,
-      "date": "09-22-2021",
-      "techs": "Sam Samson"
-    },
-    {
-      "id": 2,
-      "message": "Change hard drive 002",
+      "message": "Fixed buzzing sound",
       "attention": true,
-      "date": "09-22-2021",
-      "techs": "Emmy Emeka"
+      "tech": "Emmanuel Gbenga",
+      "date": "2021-09-21T09:55:55.812Z",
+      "id": 1
     },
     {
-      "id": 3,
-      "message": "Change hard drive 003",
-      "attention": false,
-      "date": "09-22-2021",
-      "techs": "Pat Patrick"
-    },
-    {
-      "id": 4,
-      "message": "Change hard drive 004",
+      "message": "test code",
       "attention": true,
-      "date": "09-22-2021",
-      "techs": "Ng Ngozi"
+      "tech": "Emmanuel Gbenga",
+      "date": "2021-09-21T09:56:31.980Z",
+      "id": 2
+    },
+    {
+      "message": "I am learning react-redux",
+      "attention": false,
+      "tech": "John Smith",
+      "date": "2021-09-21T09:57:10.884Z",
+      "id": 3
     }
   ],
   "techs": [
