@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/IT-LOGGER-REACT-PROJECT/static/css/main.afd7172b.chunk.css",
+    "main.js": "/IT-LOGGER-REACT-PROJECT/static/js/main.558a3db8.chunk.js",
+    "main.js.map": "/IT-LOGGER-REACT-PROJECT/static/js/main.558a3db8.chunk.js.map",
+    "runtime-main.js": "/IT-LOGGER-REACT-PROJECT/static/js/runtime-main.9b7d7407.js",
+    "runtime-main.js.map": "/IT-LOGGER-REACT-PROJECT/static/js/runtime-main.9b7d7407.js.map",
+    "static/css/2.e43d3303.chunk.css": "/IT-LOGGER-REACT-PROJECT/static/css/2.e43d3303.chunk.css",
+    "static/js/2.ecb07597.chunk.js": "/IT-LOGGER-REACT-PROJECT/static/js/2.ecb07597.chunk.js",
+    "static/js/2.ecb07597.chunk.js.map": "/IT-LOGGER-REACT-PROJECT/static/js/2.ecb07597.chunk.js.map",
+    "index.html": "/IT-LOGGER-REACT-PROJECT/index.html",
+    "static/css/2.e43d3303.chunk.css.map": "/IT-LOGGER-REACT-PROJECT/static/css/2.e43d3303.chunk.css.map",
+    "static/css/main.afd7172b.chunk.css.map": "/IT-LOGGER-REACT-PROJECT/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.ecb07597.chunk.js.LICENSE.txt": "/IT-LOGGER-REACT-PROJECT/static/js/2.ecb07597.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b7d7407.js",
+    "static/css/2.e43d3303.chunk.css",
+    "static/js/2.ecb07597.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.558a3db8.chunk.js"
+  ]
+}
